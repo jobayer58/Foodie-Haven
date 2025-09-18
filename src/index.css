@@ -1,1 +1,30 @@
 @import "tailwindcss";
+
+/* @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Marker+Hatch&display=swap');
+
+/* custom cedarville .if you want full body text use,because its nice font text */
+/* @import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap'); */
+
+
+body {
+    /* font-family: "Rubik", sans-serif; */
+    font-family: "Rubik Marker Hatch", system-ui;
+    /* font-family: "Cedarville Cursive", cursive; */ 
+}
+
+/* custom font */
+@font-face {
+  font-family: "MyFont"; /* any name */
+  src: url('./assets/font/Priestacy.otf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+.eat {
+    /* font-family: "Cedarville Cursive", cursive; */
+    font-family: "MyFont", cursive;
+    
+}
+
