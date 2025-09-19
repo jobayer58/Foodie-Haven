@@ -7,7 +7,8 @@ import burger from '../../assets/images/hero-banner-edit.png'
 const Banner = () => {
     return (
         <div>
-            <div className='relative w-full h-[400px] md:h-[500px] lg:h-screen bg-no-repeat'>
+            {/* lg:h-screen */}
+            <div className='relative w-full  h-[400px] md:h-[500px] lg:h-[800px] bg-no-repeat'>
                 {/* banner bg image */}
                 <img
                     src={banner}
