@@ -4,6 +4,7 @@ import Banner from '../Pages/Banner';
 import DiscountCafe from '../Pages/DiscountCafe';
 import DeliciousFood from '../Pages/DeliciousFood';
 import Testimonials from '../Pages/Testimonials';
+import Footer from '../Pages/Footer';
 
 const MainLayout = () => {
     return (
@@ -13,6 +14,7 @@ const MainLayout = () => {
             <DiscountCafe></DiscountCafe>
             <DeliciousFood></DeliciousFood>
             <Testimonials></Testimonials>
+            <Footer></Footer>
             
         </div>
     );

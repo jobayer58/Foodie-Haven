@@ -23,7 +23,7 @@ const Navbar = () => {
 
             <div className='max-w-7xl mx-auto flex  items-center justify-between py-5'>
                 <div>
-                    <h1 className={`md:text-[28px] text-2xl font-semibold ${isScrolled ? "text-black" : "text-white"}`}>Foodie Haven<span className='text-[#FF8D29]'>.</span></h1>
+                    <h1 className={`md:text-[28px] text-2xl font-bold ${isScrolled ? "text-black" : "text-white"}`}>Foodie Haven<span className='text-[#FF8D29]'>.</span></h1>
                 </div>
                 <div className='flex items-center gap-8'>
                     <div className='hidden lg:block'>
