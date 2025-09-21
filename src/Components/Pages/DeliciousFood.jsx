@@ -28,7 +28,7 @@ const DeliciousFood = () => {
                 </div>
 
                 {/* card */}
-                <div className='grid md:grid-cols-8 lg:grid-cols-12 gap-8 px-6 lg:px-0'>
+                <div className='grid md:grid-cols-8 lg:grid-cols-12 gap-8 px-4 lg:px-0'>
                     {/* 1st */}
                     <div className='col-span-4 bg-white h-[517px] shadow-md flex flex-col justify-center'>
                         <div className='mx-auto'>
@@ -47,7 +47,7 @@ const DeliciousFood = () => {
 
                                 {/* Hover Button */}
                                 <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                                    <button className="bg-[#F42F25] text-white font-semibold py-2 px-6 rounded shadow hover:bg-[#FF8D29]  transition-all">
+                                    <button className="bg-[#F42F25] text-white font-semibold py-2 px-6  hover:bg-[#FF8D29]  transition-all">
                                         Order Now
                                     </button>
                                 </div>
@@ -93,7 +93,7 @@ const DeliciousFood = () => {
 
                                 {/* Hover Button */}
                                 <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                                    <button className="bg-[#F42F25] text-white font-semibold py-2 px-6 rounded shadow hover:bg-[#FF8D29]  transition-all">
+                                    <button className="bg-[#F42F25] text-white font-semibold py-2 px-6  hover:bg-[#FF8D29]  transition-all">
                                         Order Now
                                     </button>
                                 </div>
@@ -138,7 +138,7 @@ const DeliciousFood = () => {
 
                                 {/* Hover Button */}
                                 <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                                    <button className="bg-[#F42F25] text-white font-semibold py-2 px-6 rounded shadow hover:bg-[#FF8D29]  transition-all">
+                                    <button className="bg-[#F42F25] text-white font-semibold py-2 px-6  hover:bg-[#FF8D29]  transition-all">
                                         Order Now
                                     </button>
                                 </div>
@@ -183,7 +183,7 @@ const DeliciousFood = () => {
 
                                 {/* Hover Button */}
                                 <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                                    <button className="bg-[#F42F25] text-white font-semibold py-2 px-6 rounded shadow hover:bg-[#FF8D29]  transition-all">
+                                    <button className="bg-[#F42F25] text-white font-semibold py-2 px-6  hover:bg-[#FF8D29]  transition-all">
                                         Order Now
                                     </button>
                                 </div>
@@ -228,7 +228,7 @@ const DeliciousFood = () => {
 
                                 {/* Hover Button */}
                                 <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                                    <button className="bg-[#F42F25] text-white font-semibold py-2 px-6 rounded shadow hover:bg-[#FF8D29]  transition-all">
+                                    <button className="bg-[#F42F25] text-white font-semibold py-2 px-6  hover:bg-[#FF8D29]  transition-all">
                                         Order Now
                                     </button>
                                 </div>
@@ -273,7 +273,7 @@ const DeliciousFood = () => {
 
                                 {/* Hover Button */}
                                 <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                                    <button className="bg-[#F42F25] text-white font-semibold py-2 px-6 rounded shadow hover:bg-[#FF8D29]  transition-all">
+                                    <button className="bg-[#F42F25] text-white font-semibold py-2 px-6  hover:bg-[#FF8D29]  transition-all">
                                         Order Now
                                     </button>
                                 </div>
