@@ -1,14 +1,13 @@
 import React from 'react';
-import shape from '../../assets/images/shape-white.png'
+import shape from '../../assets/images/shape-grey.png'
 import drinkBurger from '../../assets/images/about-banner.png'
 import sell from '../../assets/images/sale-shape-red.png'
 import { FaCheck } from 'react-icons/fa';
 
 const DiscountCafe = () => {
     return (
-        <div>
-            <img src={shape} className='w-full' alt="shape" />
-            <div className='max-w-7xl mx-auto py-24 md:flex md:justify-around grid  gap-50'>
+        <div className=''>
+            <div className='max-w-7xl mx-auto py-30 md:flex md:justify-around grid  gap-50 lg:mb-10 '>
                 {/* image */}
                 <div className='md:py-20 lg:py-0'>
                     <img src={drinkBurger} alt="drinkBurger" className='absolute px-4 lg:px-0 md:w-4/8 lg:w-fit' />
@@ -16,7 +15,7 @@ const DiscountCafe = () => {
                 </div>
                 {/* text */}
                 <div className='space-y-5 '>
-                    <h1 className='lg:text-5xl text-2xl text-center md:text-start font-bold lg:leading-14'>Caferio, Burgers, and <br /> Best Pizzas <span className='text-[#FF9D2E]'>in Town!</span></h1>
+                    <h1 className='lg:text-5xl text-2xl text-center md:text-start font-bold lg:leading-14 style'>Caferio, Burgers, and <br /> Best Pizzas <span className='text-[#FF9D2E]'>in Town!</span></h1>
                     <p className='text-[#787878] text-base text-center md:text-start px-4 md:px-0'>The restaurants in Hangzhou also catered to many northern Chinese who had <br className='hidden md:block' /> fled south from Kaifeng during the Jurchen invasion of the 1120s, while it is <br className='hidden md:block' /> also known that many restaurants were run by families.</p>
                     <ul className='space-y-2 text-[#0D1216] text-base font-bold grid items-center justify-center md:justify-start'>
                         <li className='flex items-center gap-2'><FaCheck className='rounded-full text-xl p-1 text-white bg-[#FF9D2E] '></FaCheck> Delicious & Healthy Foods</li>
@@ -32,6 +31,8 @@ const DiscountCafe = () => {
                     </div>
                 </div>
             </div>
+            <img src={shape} className='w-full' alt="shape" />
+
         </div>
     );
 };

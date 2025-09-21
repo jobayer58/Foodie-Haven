@@ -4,7 +4,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik+Marker+Hatch&display=swap');
 
 /* custom cedarville .if you want full body text use,because its nice font text */
-/* @import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap');
 
 
 body {
@@ -19,6 +19,11 @@ body {
   src: url('./assets/font/Priestacy.otf') format('truetype');
   font-weight: normal;
   font-style: normal;
+}
+
+.style {
+      font-family: "Cedarville Cursive", cursive;
+
 }
 
 
