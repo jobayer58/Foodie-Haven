@@ -2,6 +2,8 @@ import React from 'react';
 import deliveryBanner from '../../assets/images/delivery-banner-bg.png'
 import shape from '../../assets/images/shape-grey.png'
 import deliveryBoy from '../../assets/images/delivery-boy.svg'
+import { motion } from "framer-motion";
+
 
 const Delivered = () => {
     return (
@@ -10,12 +12,12 @@ const Delivered = () => {
                 {/* text */}
                 <div className='space-y-4 md:space-y-5 text-center md:text-left'>
                     <h1 className='text-2xl md:text-4xl lg:text-5xl font-bold style leading-snug'>
-                        A Moments Of Delivered <br className='hidden lg:block' /> 
+                        A Moments Of Delivered <br className='hidden lg:block' />
                         On  <span className='text-[#FF8D29]'><br className='hidden md:block lg:hidden' /> Right Time</span> & Place
                     </h1>
                     <p className='text-[#787878] text-sm md:text-base'>
-                        The restaurants in Hangzhou also catered to <br className='hidden md:block lg:hidden' /> many northern Chinese who had <br className='hidden lg:block' /> 
-                        fled south <br className='hidden md:block lg:hidden' /> from Kaifeng during the Jurchen invasion of <br className='hidden md:block lg:hidden' /> the 1120s, while it is <br className='hidden lg:block' /> 
+                        The restaurants in Hangzhou also catered to <br className='hidden md:block lg:hidden' /> many northern Chinese who had <br className='hidden lg:block' />
+                        fled south <br className='hidden md:block lg:hidden' /> from Kaifeng during the Jurchen invasion of <br className='hidden md:block lg:hidden' /> the 1120s, while it is <br className='hidden lg:block' />
                         also known that many <br className='hidden md:block lg:hidden' /> restaurants were run by families.
                     </p>
                     <button className="btn relative inline-flex items-center justify-start overflow-hidden font-medium transition-all bg-[#FF8D29] group py-2 px-6 md:py-2.5 md:px-9 text-sm md:text-base">
@@ -34,9 +36,11 @@ const Delivered = () => {
                     />
 
                     {/* Delivery Boy - Positioned absolutely */}
-                    <img
+                    <motion.img
+                        animate={{ x: [20, 50, 20] }}
+                        transition={{ duration: 5, repeat: Infinity }}
                         src={deliveryBoy}
-                        className='absolute bottom-0 -left-6 md:-left-10 lg:-left-14 w-[320px] md:w-[300px] lg:w-auto object-contain transition-transform duration-500 group-hover:scale-105'
+                        className='absolute bottom-0 -left-6 md:-left-10 lg:-left-14 w-[320px] md:w-[300px] lg:w-auto object-contain '
                         alt="Delivery Boy"
                     />
                 </div>

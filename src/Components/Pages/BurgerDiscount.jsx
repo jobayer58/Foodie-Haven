@@ -4,6 +4,8 @@ import sale from '../../assets/images/sale-shape.png'
 import banner from '../../assets/images/hero-bg.jpg'
 import shapeWhite from '../../assets/images/shape-white.png'
 import shapeGray from '../../assets/images/shape-grey.png'
+import { motion } from "framer-motion";
+
 
 
 const BurgerDiscount = () => {
@@ -14,7 +16,7 @@ const BurgerDiscount = () => {
                 {/* text */}
                 <div className='space-y-4 md:space-y-5 text-center md:text-left'>
                     <h1 className='text-2xl md:text-4xl text-white lg:text-5xl font-bold style leading-snug'>
-                        The Foodie Have Excellent <br  className='hidden lg:block'/> Of <span className='text-[#FF8D29]'> <br className='lg:hidden' />Quality Burgers!</span>
+                        The Foodie Have Excellent <br className='hidden lg:block' /> Of <span className='text-[#FF8D29]'> <br className='lg:hidden' />Quality Burgers!</span>
                     </h1>
                     <p className='text-[#DEDEDE] text-sm md:text-base'>
                         The restaurants in Hangzhou also catered to <br className='hidden md:block lg:hidden' /> many northern Chinese who had <br className='hidden lg:block' />
@@ -29,17 +31,23 @@ const BurgerDiscount = () => {
 
                 {/* img */}
                 <div className="relative inline-block group   ">
-                    {/* Delivery Banner */}
+                    {/* burger Banner */}
                     <img
                         src={burger}
                         className=' object-cover mt-10 md:w-[450px] md:h-[360px] lg:w-[628px] lg:h-[586px] '
                         alt="burger Banner"
                     />
 
-                    {/* Delivery Boy - Positioned absolutely */}
-                    <img
+                    {/* Positioned absolutely */}
+                    <motion.img
+                        animate={{ scale: [1, 1.05, 1] }}   // ছোট-বড়-ছোট হবে
+                        transition={{
+                            duration: 3,   // এক cycle করতে সময়
+                            repeat: Infinity,  // বারবার চলবে
+                            ease: "easeInOut"  // মসৃণ effect
+                        }}
                         src={sale}
-                        className='absolute bottom-0 lg:w-54 md:w-32 w-25 top-16 left-3 object-contain transition-transform duration-500 group-hover:scale-105'
+                        className='absolute bottom-0 lg:w-54 md:w-32 w-25 top-16 left-3 object-contain '
                         alt="discount"
                     />
                 </div>

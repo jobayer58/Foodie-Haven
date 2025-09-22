@@ -3,6 +3,7 @@ import shape from '../../assets/images/shape-grey.png'
 import drinkBurger from '../../assets/images/about-banner.png'
 import sell from '../../assets/images/sale-shape-red.png'
 import { FaCheck } from 'react-icons/fa';
+import { motion } from "framer-motion";
 
 const DiscountCafe = () => {
     return (
@@ -11,7 +12,14 @@ const DiscountCafe = () => {
                 {/* image */}
                 <div className='md:py-20 lg:py-0'>
                     <img src={drinkBurger} alt="drinkBurger" className='absolute px-4 lg:px-0 md:w-4/8 lg:w-fit' />
-                    <img src={sell} alt="sell" className='md:w-4/6 w-4/8 relative left-16 px-5 md:px-0' />
+                    <motion.img
+                        animate={{ scale: [1, 1.05, 1] }}   // ছোট-বড়-ছোট হবে
+                        transition={{
+                            duration: 3,   // এক cycle করতে সময়
+                            repeat: Infinity,  // বারবার চলবে
+                            ease: "easeInOut"  // মসৃণ effect
+                        }}
+                        src={sell} alt="sell" className='md:w-4/6 w-4/8 relative left-16 px-5 md:px-0' />
                 </div>
                 {/* text */}
                 <div className='space-y-5 '>

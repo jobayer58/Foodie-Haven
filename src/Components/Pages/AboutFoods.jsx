@@ -20,7 +20,7 @@ const AboutFoods = () => {
                     </p>
                 </div>
                 {/* card */}
-                <div className='grid grid-cols-4 md:grid-cols-8 lg:grid-cols-12 px-4  lg:px-0 gap-7'>
+                <div className='grid grid-cols-4 md:grid-cols-8 lg:grid-cols-12 px-4 lg:px-0 gap-7'>
                     {/* 1 */}
                     <div className='col-span-4 h-[520px] bg-white'>
                         {/* image */}
