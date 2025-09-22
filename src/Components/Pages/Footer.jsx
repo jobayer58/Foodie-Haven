@@ -21,9 +21,9 @@ const Footer = () => {
                     <Marquee
                         speed={80}
                         direction='right'
-                        pauseOnHover={true}
+                        pauseOnHover={false}
                         gradient={false}
-                        className="lg:top-[367px] md:top-[701px] top-[1132px] flex items-center"
+                        className="lg:top-[367px] md:top-[701px] top-[1130px] flex items-center"
                     >
                         <img
                             src={delivery}

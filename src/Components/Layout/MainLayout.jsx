@@ -5,6 +5,7 @@ import DiscountCafe from '../Pages/DiscountCafe';
 import DeliciousFood from '../Pages/DeliciousFood';
 import Testimonials from '../Pages/Testimonials';
 import Footer from '../Pages/Footer';
+import Delivered from '../Pages/Delivered';
 
 const MainLayout = () => {
     return (
@@ -13,6 +14,7 @@ const MainLayout = () => {
             <Banner></Banner>
             <DiscountCafe></DiscountCafe>
             <DeliciousFood></DeliciousFood>
+            <Delivered></Delivered>
             <Testimonials></Testimonials>
             <Footer></Footer>
             
