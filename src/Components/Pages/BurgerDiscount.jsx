@@ -40,7 +40,7 @@ const BurgerDiscount = () => {
 
                     {/* Positioned absolutely */}
                     <motion.img
-                        animate={{ scale: [1, 1.05, 1] }}   // ছোট-বড়-ছোট হবে
+                        animate={{ scale: [1, 1.1, 1] }}   // ছোট-বড়-ছোট হবে
                         transition={{
                             duration: 3,   // এক cycle করতে সময়
                             repeat: Infinity,  // বারবার চলবে

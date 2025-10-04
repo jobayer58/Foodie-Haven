@@ -13,7 +13,7 @@ const DiscountCafe = () => {
                 <div className='md:py-20 lg:py-0'>
                     <img src={drinkBurger} alt="drinkBurger" className='absolute px-4 lg:px-0 md:w-4/8 lg:w-fit' />
                     <motion.img
-                        animate={{ scale: [1, 1.05, 1] }}   // ছোট-বড়-ছোট হবে
+                        animate={{ scale: [1, 1.1, 1] }}   // ছোট-বড়-ছোট হবে
                         transition={{
                             duration: 3,   // এক cycle করতে সময়
                             repeat: Infinity,  // বারবার চলবে

@@ -8,6 +8,7 @@ import Footer from '../Pages/Footer';
 import Delivered from '../Pages/Delivered';
 import BurgerDiscount from '../Pages/BurgerDiscount';
 import AboutFoods from '../Pages/AboutFoods';
+import DiscountFood from '../Pages/DiscountFood';
 
 const MainLayout = () => {
     return (
@@ -19,6 +20,7 @@ const MainLayout = () => {
             <BurgerDiscount></BurgerDiscount>
             <Delivered></Delivered>
             <Testimonials></Testimonials>
+            <DiscountFood></DiscountFood>
             <AboutFoods></AboutFoods>
             <Footer></Footer>
             

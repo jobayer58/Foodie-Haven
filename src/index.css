@@ -33,3 +33,25 @@ body {
     
 }
 
+
+/* Custom Scrollbar Style */
+::-webkit-scrollbar {
+  width: 8px; /* scrollbar er width */
+}
+
+/* scrollbar background (track) */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; /* background color */
+}
+
+/* scrollbar thumb (scroll korar part) */
+::-webkit-scrollbar-thumb {
+  background: #FF8D29; /* change color here */
+  /* border-radius: 10px; round shape */
+}
+
+/* hover korle thumb color change hobe */
+::-webkit-scrollbar-thumb:hover {
+  background: #e66f00;
+}
+
