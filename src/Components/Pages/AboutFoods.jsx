@@ -22,7 +22,7 @@ const AboutFoods = () => {
                 {/* card */}
                 <div className='grid grid-cols-4 md:grid-cols-8 lg:grid-cols-12 px-4 lg:px-0 gap-7'>
                     {/* 1 */}
-                    <div className='col-span-4 h-[520px] bg-white'>
+                    <div className='col-span-4 h-auto md:h-[520px] bg-white'>
                         {/* image */}
                         <div className='relative '>
                             <img src={blog1} className='w-full h-[240px] object-cover' alt="" />
@@ -49,7 +49,7 @@ const AboutFoods = () => {
 
                     </div>
                     {/* 2 */}
-                    <div className='col-span-4 h-[520px] bg-white'>
+                   <div className='col-span-4 h-auto md:h-[520px] bg-white'>
                         {/* image */}
                         <div className='relative '>
                             <img src={blog2} className='w-full h-[240px] object-cover' alt="" />
@@ -76,7 +76,7 @@ const AboutFoods = () => {
 
                     </div>
                     {/* 3 */}
-                    <div className='col-span-4 h-[520px] bg-white'>
+                    <div className='col-span-4 h-auto md:h-[520px] bg-white'>
                         {/* image */}
                         <div className='relative '>
                             <img src={blog3} className='w-full h-[240px] object-cover' alt="" />
